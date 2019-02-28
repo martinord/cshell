@@ -46,13 +46,11 @@ make
 
 
   *  `list [-l] [file1] [file2]...`
-  Prints the PID of the process executing the shell
-
+  Prints the PID of the process executing the shell.
     * `-l` lists the files and directories with more information  
 
   *  `eliminate [-f] <file*name>`
   Removes a file or a directory.
-
     * `-f` if it is a directory, it removes all contents
 
 
@@ -60,7 +58,6 @@ make
 
   *  `malloc [-deallocate] [size]`
   Shows the allocated memory using this command. If *size* is specified, the shell allocates *size* bytes of memory, showing the memory address of the allocated memory.
-
     * `-deallocate` It deallocates a block previously allocated of *size* bytes
 
   * `mmap [file*name] [permissions]`</summary>
@@ -74,7 +71,6 @@ make
 
   *  `shared [-deallocate] [k]`
   Gets the shared memory of key *k* and allocates it in the process address space. If not arguments are specified, `shared` will display the addrsses allocated.
-
     *  `-deallocate` It deallocates a block previously allocated with key *k*
 
   *  `rmkey <k>`
