@@ -18,17 +18,14 @@ make
 ## Commands
 #### Basics
 
-* `autores [-l] [-n]`
- Prints the authors' details
-
-  * `-l` prints the logins
-  * `-n` prints the names
-
+  * `autores [-l] [-n]`
+  Prints the authors' details
+    * `-l` prints the logins
+    * `-n` prints the names
 
 
   * `pid [-p]`
   Prints the PID of the process executing the shell
-
     * `-p` prints the PID of the parent process
 
 
